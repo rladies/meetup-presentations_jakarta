@@ -1,6 +1,6 @@
 # meetup-presentations_jakarta
 
-<!--![Alt text](./sticker_rladies.png | width = 20)>
+<!--![Alt text](./sticker_rladies.png | width = 20) -->
 
 <img src="./sticker_rladies.png" width="20">
 
