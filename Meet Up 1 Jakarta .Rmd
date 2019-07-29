@@ -1,0 +1,435 @@
+---
+title: "What is R and what can you do with it?"
+author: "Ulfah Mardhiah"
+date: "7/28/2019"
+output:
+  revealjs::revealjs_presentation:
+    theme: sky
+    highlight: tango
+
+---
+
+```{r global_options, include=FALSE, echo=TRUE}
+knitr::opts_chunk$set(echo = FALSE, fig.width = 4, fig.height = 3)
+library(tinytex)
+```
+
+
+# Brief introduction of R  
+
+## Brief introduction of R{.flexbox .vcenter}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/200px-R_logo.svg.png){width=25%}
+
+<https://www.r-project.org/>
+
+* Language and environment for statistical computing and graphics.   
+* Similar to the S language and environment, different implementation.  
+* Much code written for S runs unaltered under R.  
+* Open Source!
+* R is available as Free Software 
+
+## Why is it called R?{.flexbox .vcenter}
+
+Based on the (first) names of the first two R authors **Robert Gentleman** and **Ross Ihaka** (Dept. of Statistics, University of Auckland) who developed R from S programming languange developed primarily by **John Chambers**.
+
+![](https://thermanuals.files.wordpress.com/2014/12/rr.jpg)  
+
+## Design of the R System{.flexbox .vcenter}
+
+* The "base" R system downloaded from CRAN (Comprehensive R Archive Network)
+* Everything else
+
+![R packages growth.](https://static.packt-cdn.com/products/9781789139402/graphics/0bcff1ff-b5ef-408b-9fe7-43fd4932a322.png){width=70%}
+
+## R functionality is divided into a number of "packages"{.flexbox .vcenter}
+
+* The "base" R system: base package required to run R,  
+contains most fundamental functions
+* The other packages, e.g., *nlme*, *lme4*, *ggplot2*, *MuMIn*, etc.
+
+## Goals in learning R 
+
+![](http://revolution-computing.typepad.com/.a/6a010534b1db25970b01bb087dc1b0970d-pi)
+
+## Why use R?
+
+![](https://qph.fs.quoracdn.net/main-qimg-e6d077a37eb2d4033b8a49e41c1e7d01)
+
+## Why use R?
+
+![](https://www.business-science.io/figure/source/2017-12-27-six-reasons-to-use-R-for-business/unnamed-chunk-1-1.png){width=60%}
+
+## R vs Python?
+
+![](https://www.kdnuggets.com/wp-content/uploads/r-vs-python-activity.jpg)
+  
+# How to use R
+
+## **R-base software**{.flexbox .vcenter}
+
+![](http://statseducation.com/Introduction-to-R/img/r_sess.PNG){width=100%}
+
+
+## **R-studio software**{.flexbox .vcenter}
+
+![](https://bookdown.org/ageraci/STAT160Companion/images/rstudiopanes.png){width=100%}
+
+# A few important syntax conventions in R
+
+## Important syntax{.flexbox .vcenter}
+* R is *case sensitive* - so be very careful in the use of upper and lower case.
+* / - forward slash is used in all path names (as opposed to the backward slash "\"), or use double backward slash ("\\").
+* ‘ and “ (single and double quotes) are used interchangeably as long as they are paired.
+* () refers to functions and contains the arguments of the corresponding function.
+* [] refers to indexing and references row and/or column elements of a data structure.
+
+# What can you do within R? 
+
+## What can you do with R:{.flexbox .vcenter}
+* R provides a wide variety of *statistical and graphical* techniques, and is highly *extensible*.  
+* Linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, etc
+* Produce well-designed *publication-quality* plots, the user retains *full control*.
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://www.r-graph-gallery.com/wp-content/uploads/2015/09/4_barplot_with_IC1.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://www.statmethods.net/advgraphs/images/advgraphs.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://plot.ly/~RPlotBot/1143.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://www.r-graph-gallery.com/wp-content/uploads/2015/11/51_scatterplot_linear_model_with_CI_ggplot2.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://www.statmethods.net/graphs/images/simpleplots.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+![](https://miro.medium.com/max/1200/1*oSOHZMoS-ZfmuAWiF8jY8Q.png)
+
+## What can you do within R?{.flexbox .vcenter}
+
+Sentiment analysis (text mining)
+
+![](https://www.tidytextmining.com/02-sentiment-analysis_files/figure-html/pipetoplot-1.png){width=80%}
+
+## What can you do within R?{.flexbox .vcenter}
+
+Word cloud     
+![](https://www.tidytextmining.com/02-sentiment-analysis_files/figure-html/wordcloud-1.png){width=60%}
+
+## What can you do within R?{.flexbox .vcenter}
+Network analysis (Games of Thrones!)
+
+![](GOT.jpg){width=100%}
+
+## What can you do within R? {.flexbox .vcenter}
+Spatial data analysis      
+![](http://revolution-computing.typepad.com/.a/6a010534b1db25970b01b8d283a8c4970c-pi){width=40%}
+
+  
+## What can you do within R?{.flexbox .vcenter}
+Time series analysis      
+![](https://i2.wp.com/www.business-science.io/assets/tidy-timeseries-part1.png?w=456){width=40%}
+
+   
+## What else can you do with R?{.flexbox .vcenter}
+Write reproducible Word or Powerpoint documents from R markdown
+
+![](https://d33wubrfki0l68.cloudfront.net/6d02e245de5328f2e9c25ca82eb7315717dcafa7/62e43/images/rmarkdownoutputformats.png){width=40%}
+
+
+## What else can you do with R?{.flexbox .vcenter}
+![](https://d33wubrfki0l68.cloudfront.net/ece57b678854545e6602a23daede51ad72da2170/21cca/lesson-images/outputs-1-word.png){width=80%}
+
+## What else can you do with R?{.flexbox .vcenter}
+
+[Presentation](http://rpubs.com/keithmcnulty/hr_meetup_london?source=post_page---------------------------)
+
+## What else can you do with R?{.flexbox .vcenter}
+Build and host interactive web apps in just a few lines of code. 36 codes to make an interactive dashboard using 'flexdashboard' package.    
+
+![](interactive app R.jpg){width=50%}    
+
+## What else can you do with R?{.flexbox .vcenter}
+
+[Sales report](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-highcharter/htmlwidgets-highcharter.html)
+
+
+## What else can you do with R?{.flexbox .vcenter}
+  + Host your web apps in one more line of R code (`rsconnect` package).
+
+  + Connect to almost any database using `package dplyr/dbplyr`. You can also use specialized packages like `bigrquery` to work with other high performance data stores. 
+
+  + You can use the same `dplyr` grammar to transforms your dataset. No need to clean up your data with excel anymore!
+
+## What else can you do with R?{.flexbox .vcenter}
+  + You can make video game interfaces with R. E.g., the `nessy` package lets you create NES looking Shiny apps and deploy them. [Example game interface.](https://lucy.shinyapps.io/classify/)
+
+  + Learn R in R using package `swirl`.        
+![](https://swirlstats.com/images/swirl_new_large_final.png){width=40%}
+
+## What else can you do with R?{.flexbox .vcenter}
+And many others!
+
+```{r, echo=TRUE,warning=FALSE}
+library(praise)
+praise()
+```
+
+## What else can you do with R? {.smaller .flexbox .vcenter}
+Fortune telling??
+<small>     
+```{r, echo=TRUE,warning=FALSE}
+library(fortunes)
+fortune()
+```
+</small>     
+
+
+## What else can you do with R? {.smaller .flexbox .vcenter}
+Cowsay?
+<small>     
+```{r, echo=TRUE,warning=FALSE}
+library(cowsay)
+say("Hi hi hi!",by="hypnotoad")
+```
+</small>     
+
+
+## What else can you do with R? {.smaller .flexbox .vcenter}   
+<small>     
+```{r, echo=TRUE,warning=FALSE}
+say("Wise you are young Jedi",by="yoda")
+```
+</small>     
+
+## What else can you do with R?{.flexbox .vcenter}
+
+Wes Anderson color palette
+![](https://66.media.tumblr.com/c6db91b5de808b02c3d7c041cc174913/tumblr_oqdcbfwxyH1w3awnio1_1280.png){width=80%}
+
+## What else can you do with R?{.flexbox .vcenter}
+
+![](https://epijim.uk/images/wes_1_palettes.jpg){width=50%}
+
+## What else can you do with R?{.flexbox .vcenter}
+
+![](https://a7.typepad.com/6a0105360ba1c6970c01a73d9aa907970d-450wi){width=45%}![](https://a4.typepad.com/6a0105360ba1c6970c01a3fcdfcfa4970b-450wi){width=45%}
+
+## What else can you do with R?{.flexbox .vcenter}
+
+![](https://camo.githubusercontent.com/20e0734ce482cc49a5fad9178e082308e1ddcea0/68747470733a2f2f692e696d6775722e636f6d2f3042564e6939672e6a7067){width=80%}
+
+## What else can you do with R?
+
+Art?     
+![Chicago crime computer](https://www.r-graph-gallery.com/wp-content/uploads/2017/08/chicagoCrimeComputerVoronoiONEtilesYears2016-768x1122.png){width=38%}
+
+## What else can you do with R?
+From this: 
+```{r,eval=FALSE, echo=TRUE}
+# generate pairs of x-y values
+nx = 100
+ny = 80
+x = sample(x = 1:nx, size = 90, replace = TRUE)
+y = seq(-1, -ny, length = 90)
+ 
+# set graphical parameters
+op = par(bg = "black", mar = c(0, 0.2, 0, 0.2))
+ 
+# plot
+plot(1:nx, seq(-1, -nx), type = "n", xlim = c(1, nx), ylim = c(-ny+10, 1))
+for (i in seq_along(x))
+{
+  aux = sample(1:ny, 1)
+  points(rep(x[i], aux), y[1:aux], pch = sample(letters, aux, replace = TRUE), 
+         col = hsv(0.35, 1, 1, runif(aux, 0.3)), cex = runif(aux, 0.3))
+}
+ 
+# signature
+legend("bottomright", legend = "© Gaston Sanchez", bty = "n", text.col = "gray70")
+```
+
+## To this: 
+
+![](https://www.r-graph-gallery.com/wp-content/uploads/2015/11/56_matrix.png)
+
+## What else can you do with R?
+
+![](https://www.r-graph-gallery.com/wp-content/uploads/2016/08/new_2_Carbon_Emissions_in_the_Industrial_Age.jpg)
+
+## What else can you do with R?
+
+![](https://www.r-graph-gallery.com/wp-content/uploads/2016/05/144_bb8_ggplot2-800x1067.png){width=40%}
+
+## What else can you do with R?
+
+Vassily Kandisnky (1866-1944)        
+![](https://upload.wikimedia.org/wikipedia/commons/8/8a/Vassily-Kandinsky.jpeg) ![](https://i0.wp.com/www.guggenheim.org/wp-content/uploads/2016/07/artwork-vasily-kandinsky-composition-8-37.262.jpg?w=870){width=60%}
+
+## What else can you do with R?
+
+![](https://github.com/gsimchoni/kandinsky/raw/master/README-unnamed-chunk-4-1.png)
+
+## Where can you learn R from?
+
+* Many courses available online
+* An R package to do that exist!
+* Find R discussion board through Google
+* Join workshops        
+![](stack.jpg){width=60%}
+
+## Best way to learn?
+
+Solve a problem you have! Simple statistics, simple plot can help you start with R.     
+<small>
+```{r, echo=TRUE}
+normal1<-rnorm(10,mean=0,sd=1)
+normal2<-rnorm(10000,mean=0,sd=1)
+par(mfrow=c(1,2))
+hist(normal1,main="")
+hist(normal2,main="")
+```
+</small>
+
+# More questions?
+
+## Contact and join us!
+
+![](iga.jpg) 
+
+## Contact and join us!
+
+![](wulan.jpg) 
+
+## Contact and join us!
+
+![](erika.jpg) 
+
+## Contact and join us!
+
+![](shera.jpg) 
+
+## Contact and join us!
+
+![](ulfah.jpg) 
+
+## Bogor chapter, first meet up
+![](meet1 bogor.jpg)
+
+## Bogor chapter, second meet up
+
+![](meet 2 bogor.jpeg)
+
+## Bogor chapter, third meet up
+
+![](meet 3 bogor.jpeg)
+
+## References: 
+https://simplystatistics.org/2019/03/13/10-things-r-can-do-that-might-surprise-you/           
+https://gist.github.com/jtleek/3e1baac9a74ea81556c9e6d55743d7ea           
+https://rmarkdown.rstudio.com/authoring_quick_tour.html        
+https://towardsdatascience.com/ten-random-useful-things-in-r-that-you-might-not-know-about-54b2044a3868            
+https://www.r-bloggers.com/useless-but-fun-r-packages/          
+https://blog.revolutionanalytics.com/2014/03/give-your-r-charts-that-wes-anderson-style.html          
+https://www.tidytextmining.com/sentiment.html
+https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
+https://bookdown.org/yihui/rmarkdown/custom-css-1.html
+https://github.com/thomaspark/bootswatch
+https://rstudio-pubs-static.s3.amazonaws.com/27777_55697c3a476640caa0ad2099fe914ae5.html#/11
+
+# Let's try a little bit of R!
+
+## Do the followings!
+1. Sum 98 and 32
+2. Divide 67 with 4
+3. Sum `two` and `three`
+
+## Results
+
+```{r,echo=TRUE}
+98 + 32
+67/4
+#two+three
+```
+
+## Let's make a pie chart
+
+<small>
+```{r,echo=TRUE}
+hour<-c(8,7.5,1,4,10)
+par(mar=c(1.1,2.1,2.1,2.1)) #set margin for plotting
+pie(hour,main="Working hours last week",
+    col=rainbow(length(hour)),
+    labels=c("Mon","Tue","Wed","Thu","Fri"))
+```
+</small>
+
+## Let's change the color
+
+<small>
+```{r, echo=TRUE}
+library("wesanderson")
+pal <- wes_palette("Zissou1", 5, type = "continuous")
+par(mar=c(1.1,2.1,2.1,2.1)) #set margin for plotting
+pie(hour,main="Working hours last week",
+    col=pal,
+    labels=c("Mon","Tue","Wed","Thu","Fri"))
+```
+</small>
+
+# Next for R Ladies Jakarta?
+
+## Brief overview of the current participants
+
+```{r}
+resp<-c(25,7)
+pal <- wes_palette("GrandBudapest2", 2, type = "continuous")
+par(mar=c(1.1,2.1,2.1,2.1)) #set margin for plotting
+pie(resp,
+    main= "From 32 responses...",
+    col=pal,
+    labels=c("Non-student","Student"))
+```
+
+## Brief overview of the current participants
+```{r}
+resp<-c(12,4,1,15)
+pal <- wes_palette("Royal2", 4, type = "continuous")
+par(mar=c(1.1,2.1,2.1,2.1)) #set margin for plotting
+pie(resp,main="From 32 responses...",
+    col=pal,
+    labels=c("Beginner","Intermediate","Advanced","Never used R before"))
+```
+
+## R-Ladies Jakarta
+1. When should we meet next?
+2. What topics do we want to have? R workshops? Inviting guests? Sharing experiences between R-Ladies users?           
+```{r}
+topic<-c(23,16,15,21,24,19,1)
+par(mar=c(3,10,3,1))
+barplot(topic,main="Expected topics",xlim=c(0,25),
+        col="hotpink3",names.arg=c("Tutorial for R","Packages (dplyr,ggplot)",
+              "Markdown, Shiny",
+              "Research works with R",
+              "Networking",
+              "Mentoring",
+              "Built a package"),las=2,horiz=TRUE)
+abline(v=0)
+```
+
+## R-Ladies
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjAycejfbvZq29CVVPu-vtdoqdYd6dqtaBg3rdCjajh2IHE3XsA)
+
+## R-Ladies 
+
+![](http://static1.squarespace.com/static/58d94e54b3db2b57ce97c524/58daa04bb3db2b38d4674feb/5a9ffe4fe4966b2fb9a427f1/1520510571592/7d3dae0986567e077ab4d6679d2acc33.jpg?format=1500w){width=60%}
